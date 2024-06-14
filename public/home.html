@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>𝚆𝙴𝙱 𝚅𝙸𝙴𝚆 𝙱𝚈 𝚁𝙾𝙼𝙸𝙼</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
+  </head>
+  <body>
+    <div class="webview">
+     <div class="info-box">
+       <img src="https://i.ibb.co/RSFMcjt/image.jpg" alt="";
+       <div class="info">
+         <h2>𝚁𝙾𝙼𝙸𝙼 𝙰𝙷𝙼𝙴𝙳</h2>
+         <p>𝚈𝙾𝚄𝚁 𝙱𝚁𝙾𝚃𝙷𝙴𝚁</p>
+       </div>
+       
+       <div class="socials">
+         <i class='bx bxl-instagram'></i>
+         <i class='bx bxl-youtube'></i>
+         <i class='bx bxl-facebook-circle' ></i>
+         <i class='bx bxl-tiktok'></i>
+     </div>
+     </div>
+
+    <div class="numbers-grid">
+      <div class="box">
+        <p>120</p>
+        <p>posts</p>
+      </div>
+      <div class="box">
+        <p>170k</p>
+        <p>followers</p>
+      </div>
+      <div class="box">
+        <p>20</p>
+        <p>following</p>
+      </div>
+      <div class="btn-box">
+        <button class="follow">Follow</button>
+                <button class="message">Message</button>
+      </div>
+    </div>
+  
+
+
+    <script src="script.js">
+    </script>
+      <style>
+        *{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.webview img{
+  width: 150px;
+  border-redius: 50%;
+  border: 3px solid rgb(0, 255, 234);
+  box-shadow: 0 0 25px rgb(0, 255,234);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.webview img:hover{
+  box-shadow: 0 0 25px rgb(0, 255,234),     0 0 50px rgb(0, 255,234),     0 0 100px rgb(0, 255,234);
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url(https://i.ibb.co/PwgdqMR/image.jpg)no-repeat center;
+  background-size: cover;
+}
+.webview{
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+gap: 0.5em;
+padding: 2em 2.5em;
+border-radius: 2em;
+background-color: ☐ rgba(207, 207, 207, 0.2);
+backdrop-filter: blur (10px);
+border: 1px solid Irgba(255, 255, 255, 0.15);
+color: white;
+}
+.webview .numbers-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2em;
+}
+.webview .btn-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 1em;
+}
+.btn-box button{
+padding: 12px 25px;
+font-size: 16px;
+border-radius: 1em;
+cursor: pointer;
+border: 2px solid transparent;
+transition: 0.4s ease-in-out;
+}
+.btn-box .follow{
+  background-color: rgb(0, 255, 234);
+  box-shadow: 0 0 25px rgb(0, 255, 234);
+  color: #black;
+}
+.btn-box .follow:hover{
+  background-color: transparent;
+  border: 2px solid rgb(0, 255, 234);
+  color: rgb(0, 255, 234);
+  box-shadow: 0 0 20px rgb(0, 255, 234),         
+    inset 0 0 10px rgb(0, 255, 234);
+}
+.btn-box .message{
+  background-color: transparent;
+  border: 2px solid rgb(0, 255, 234);
+  color: rgb(0, 255, 234);
+  box-shadow: 0 0 20px rgb(0, 255, 234),         
+    inset 0 0 10px rgb(0, 255, 234);
+}
+.numbers-grid .box p:first-child{
+  font-weight: 800;
+}
+.numbers-grid .box p:last-child{
+  font-weight: 500;
+  opacity: 0.8;
+}
+.info-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 1.5em;
+}
+.info p{
+  color: rgb(0, 255, 234);
+}
+.info-box .socials{
+  margin: 20px 0;
+}
+.info-box .socials i{
+  font-size: 1.5em;
+  color: rgb(0, 255, 234);
+  border: 2px solid rgb(0, 255, 234);
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: px;
+  cursor: pointer;
+  transition: 0.4 ease-in-out;
+}
+.info-box .socials i:hover{
+  background-color: rgb(0, 255, 234);
+  color: black;
+  box-shadow: rgb(0, 255, 234);
+}
+.btn-box .message:hover{
+  background-color: rgb(0, 255, 234);
+  color: black;
+  box-shadow:0 0 25px rgb(0, 255, 234),
+       inset 0 0 10px rgb(0, 255, 234);
+}
+      </style>
+  </body>
+</html>
